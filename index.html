@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+        <h1>Curruiculum Vitae</h1>
+        <img src="https://randomuser.me/api/portraits/men/73.jpg" alt="Foto de Perfil">
+        <h2>Ethan Castillo</h2>
+    </header>
+
+    <nav class="container">
+        <ul class="row">
+            <li class="col-none-12 col-sm-6 col-md-6 col-lg-3"> <b>Correo electronico</b><br> <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe">ethan.castillo@example.com</a></li>
+            <li class="col-none-12 col-sm-6 col-md-6 col-lg-3"> <b>Dirección</b><br> <a href="https://www.google.es/maps">9060 Elgin St</a></li>
+            <li class="col-none-12 col-sm-6 col-md-6 col-lg-3"> <b>Teléfono</b><br>(749) 327-4527</li>
+            <li class="col-none-12 col-sm-6 col-md-6 col-lg-3"> <b>Fecha de Nacimiento</b><br>06/07/1960</li>
+        </ul>
+    </nav>
+
+    <aside class="container">
+        <p>Me pongo en contacto con usted porque he visto que disponen de una vacante para una posición de Analista de Datos en [añadir nombre de la empresa].</p>
+        <p>Me gustaría transmitirles mi interés por el puesto de trabajo que ofrecen, me siento muy capacitado para desempeñarlo a la perfección y creo que mis experiencias anteriores me han dado la formación necesaria para estar a la altura de sus expectativas.</p>
+        <p>Al mismo tiempo, quisiera poder formar parte de su empresa, ya que sus valores profesionales encajan completamente con los míos como trabajador. Considero que es una compañía en la que podría aprender mucho y que me permitirá desarrollar todos mis conocimientos y habilidades.</p>
+    </aside>
+
+    <main class="container">
+        <section class="row">
+            <article class="col">
+               <h3>Experiencia Laboral</h3> 
+                <date-time>11/12/2018 - 10/12/2022  </date-time>
+                <p><b>CompanyPc</b> | Argentina</p>
+                <p>Analista de Sistemas</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Phasellus pretium nulla eget nibh lacinia tincidunt posuere non lectus.</li>
+                        <li>Proin congue mi eget dolor eleifend, sed interdum nulla mattis.</li>
+                        <li>Duis ac erat et ipsum venenatis venenatis eu sed felis.</li>
+                        <li>Duis eget nisl a felis malesuada fermentum nec in enim.</li>
+                    </ul>
+            </article>
+
+            <article class="col">
+                <h3>Formación Academica</h3>
+                <tiempo>27/11/2020</tiempo>
+                <p><b>Universidad Argentina</b> | Técnico Superior Analista de Sistema</p>
+                <tiempo>20/12/2021</tiempo>
+                <p><b>Universidad Argentina</b> | Técnico en Comercialización Y Marketing</p>
+            </article>
+            <article class="col">
+                <h3>Aptitudes</h3>
+                    <ul>
+                        <li>Trabajo en equipo</li>
+                        <li>Creatividad</li>
+                        <li>Resiliencia</li>
+                        <li>Proactividad</li>
+                        <li>Comunicación oral</li>
+                        <li>Iniciativa</li>
+                        <li>Buena Presencia</li>
+                        <li>Responsabilad</li>
+                        <li>Capacidad de organización</li>
+                        <li>Discreción</li>
+                    </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="container">
+
+        <button class="container" id="boton" onclick="mostrar()";>Clic aquí para mas informaión</button>
+
+        <div id="info">
+            <p><b>Edad:</b> 30 Años</p>
+            <p><b>Nacionalidad:</b> Argentina</p>
+            <p><b>Estado Civil:</b> Soltero</p>
+            <p><b>Sexo:</b> Masculino</p>
+            <p><b>Hijos:</b> 0</p>
+            <p><b>DNI:</b> 12.345.678</p>
+            <button class="container" id="boton" onclick="ocultar()";>Clic aquí para ocultar información</button>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="function.js"></script>
+
+  </body>
+</html>
